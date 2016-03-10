@@ -4,10 +4,12 @@
 
 #Usage
 
-=test
+* test
 sh test_swoole.sh
-and then
-ab -n 10000 -c 100 http://localhost:8080/
+* ab test
+ab -n 20000 -c 100 http://localhost:8080/
+* test result
+in single CPU we have rps > 3000 result
 
 #build
 sh build.sh
