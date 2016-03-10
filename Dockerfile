@@ -1,4 +1,4 @@
-FROM cmptech/alpine_php7_runtime_base
+FROM cmptech/auto_alpine_php7_runtime
 
 Maintainer Wanjo Chan ( http://github.com/wanjochan/ )
 
