@@ -9,10 +9,12 @@
 * test result: in single CPU we have rps > 3000
 
 #build
-sh build.sh
+ 
+ using build.sh
    
 #TODO
 
-* auto download denpency and build (alpine_php7_runtime_base && alpine_php7_dev_base && alpine_php7_dev_with_swoole)
+* any green nginx destribution to do the load balancing to this with unix socket
+* auto download denpency and build (alpine_php7_runtime_base && alpine_php7_dev_base && alpine_php7_dev_with_swoole) and then copy an autobuild into hub.docker.io
 * make a neon-simulation php piece
 
