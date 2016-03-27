@@ -1,6 +1,10 @@
 # alpine_php7_runtime_with_swoole
 
  = cmptech/alpine_php7_runtime_base + php swoole 
+<pre>
+REPOSITORY                                       TAG                 IMAGE ID            CREATED             SIZE
+cmptech/alpine_php7_runtime_with_swoole          latest              97abdc7ea17b        2 weeks ago         27.74 MB
+</pre>
 
 #Test
 
@@ -11,10 +15,13 @@
 #build
  
  using build.sh
-   
+
+# Usage
+
+docker run --rm -ti cmptech/alpine_php7_runtime_with_swoole php -m
+
 #TODO
 
-* any green nginx destribution to do the load balancing to this with unix socket
-* auto download denpency and build (alpine_php7_runtime_base && alpine_php7_dev_base && alpine_php7_dev_with_swoole) and then copy an autobuild into hub.docker.io
-* make a neon-simulation php piece
+* auto build...
+* make a neon-simulation php piece as example
 
