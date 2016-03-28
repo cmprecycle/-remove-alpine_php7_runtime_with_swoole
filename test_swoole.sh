@@ -6,3 +6,5 @@ docker run -p 8080:9501 -v ${dd}:/root/ cmptech/alpine_php7_runtime_with_swoole 
 sleep 2
 siege -c 10 -b -q -t 10s http://192.168.99.100:8080/
 
+echo if ok now go on with
+echo wget https://github.com/swoole/swoole-src/raw/master/examples/proxy.php
