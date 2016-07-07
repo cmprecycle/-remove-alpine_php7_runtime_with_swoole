@@ -17,3 +17,7 @@ cp /var/tmp/${dt}/swoole.so $dd/
 
 docker build -t cmptech/alpine_php7_runtime_with_swoole $dd
 docker run cmptech/alpine_php7_runtime_with_swoole php -m
+
+echo If you are owner to cmptech/alpine_php7_runtime_with_swoole, now you can run:
+echo docker push cmptech/alpine_php7_runtime_with_swoole
+
